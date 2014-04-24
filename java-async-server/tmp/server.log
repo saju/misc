@@ -1,0 +1,470 @@
+Apr 24, 2014 9:11:49 PM serverfmwk.Server banner
+INFO: Server initialised...
+Apr 24, 2014 9:11:59 PM serverfmwk.Server banner
+INFO: Server initialised...
+Apr 24, 2014 9:12:15 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:12:15 PM serverfmwk.net.BabelListener processConnection
+FINEST: Babel Listener: Have got new request, processing...
+Apr 24, 2014 9:12:15 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:12:15 PM serverfmwk.net.BabelListener processConnection
+FINEST: Babel Listener: Have got new request, processing...
+Apr 24, 2014 9:12:28 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:12:28 PM serverfmwk.net.BabelListener processConnection
+FINEST: Babel Listener: Have got new request, processing...
+Apr 24, 2014 9:12:28 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:12:28 PM serverfmwk.net.BabelListener processConnection
+FINEST: Babel Listener: Have got new request, processing...
+Apr 24, 2014 9:13:23 PM serverfmwk.Server banner
+INFO: Server initialised...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:34 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:35 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:35 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /app/
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Protocol parse
+INFO: End request /app/
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /favicon.ico
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:37 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:37 PM serverfmwk.net.Protocol parse
+INFO: End request /favicon.ico
+Apr 24, 2014 9:13:41 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:13:41 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:13:41 PM serverfmwk.net.Protocol parse
+INFO: End request /
+Apr 24, 2014 9:18:12 PM serverfmwk.Server banner
+INFO: Server initialised...
+Apr 24, 2014 9:18:22 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:22 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:23 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:23 PM serverfmwk.net.Protocol parse
+INFO: End request /
+Apr 24, 2014 9:18:28 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /app
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:28 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:28 PM serverfmwk.net.Protocol parse
+INFO: End request /app
+Apr 24, 2014 9:18:33 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /app/
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:33 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:33 PM serverfmwk.net.Protocol parse
+INFO: End request /app/
+Apr 24, 2014 9:18:40 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.Acceptor run
+FINER: Acceptor: processing the connection...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: I have got a new request, processing...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener processConnection
+FINEST: SecureListener: Executing the task...
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.Protocol serviceURI
+INFO: Start request /key
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: GOT SELECTED KEYS
+Apr 24, 2014 9:18:40 PM serverfmwk.net.SecureListener run
+FINEST: SECURE LISTENER: EXECUTING THE CLIENT TASK[1]
+Apr 24, 2014 9:18:40 PM serverfmwk.net.Protocol parse
+INFO: End request /key

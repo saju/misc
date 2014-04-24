@@ -1,0 +1,42 @@
+<project name="ServerFmwk" default="compile" basedir=".">
+  <description>
+      Top level build file for ServerFmwk
+  </description>
+
+  <property name="src" location="."/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+
+
+  <property environment="env"/>
+
+  <target name="init">
+    <tstamp/>
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="server" depends="init,build-server" description="package server">
+    <jar jarfile="${build}/Server.jar" 
+	 basedir="${build}"
+	 includes="serverfmwk/**">
+      <manifest>
+	<attribute name="Main-Class" value="serverfmwk.Server"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="build-server" depends="init" description="compile server">
+    <javac srcdir="${src}" destdir="${build}" debug="on" debuglevel="lines,vars,source">
+      <include name="serverfmwk/*"/>
+    </javac>
+  </target>
+  
+  <target name="compile" depends="server" description="compile everything"/>
+  
+  <target name="clean" description="clean up" >
+    <delete dir= "${build}"/>
+    <delete>
+      <fileset dir="." includes="**/*~" defaultexcludes="no"/>
+    </delete>
+  </target>
+</project>
