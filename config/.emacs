@@ -7,6 +7,11 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+;; GUI Emacs needs to pickup same ENV as the shell
+(when (memq window-system '(mac ns))
+  (exec-path-from-shell-initialize))
+
+
 ;; setup paren-mode to hilight expressions
 (setq show-paren-delay 0)           
 (show-paren-mode t)                 
