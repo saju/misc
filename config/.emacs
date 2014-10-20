@@ -30,9 +30,18 @@
 (global-set-key (kbd "<f7>") 'set-color-theme)
 
 ;; clojure stuff
+;; cider
 (require 'clojure-mode)
 (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
 (setq nrepl-hide-special-buffers t)
 (setq cider-prefer-local-resources t)
 (setq cider-repl-result-prefix "=> ")
 (setq cider-repl-history-file "~/.emacs.d/clojure-repl-history")
+
+
+;; dumb inferior-repl support as alternative to cider nREPL
+;; "repl" is my shell script that wraps jline over clojure.jar, so i can use
+;; a readline like repl on the terminal too
+(setq inferior-lisp-program "repl")
+(global-set-key (kbd "<f2>") 'run-lisp)
+

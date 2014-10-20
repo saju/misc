@@ -1,0 +1,4 @@
+#! /bin/bash
+
+export CLASSPATH=/Users/sajur/bin/jline-0.9.94.jar:/Users/sajur/bin/clojure-1.6.0.jar:$CLASSPATH
+java jline.ConsoleRunner clojure.main
