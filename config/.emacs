@@ -42,6 +42,11 @@
 ;; dumb inferior-repl support as alternative to cider nREPL
 ;; "repl" is my shell script that wraps jline over clojure.jar, so i can use
 ;; a readline like repl on the terminal too
-(setq inferior-lisp-program "repl")
-(global-set-key (kbd "<f2>") 'run-lisp)
+(global-set-key (kbd "<f2>") '(lambda ()
+				(interactive)
+				(add-hook 'clojure-mode-hook '(lambda ()
+								(local-set-key (kbd "\C-x\C-e" 'lisp-eval-last-sexp))))
+				(setq inferior-lisp-program "repl")))
+					  
+(global-set-key (kbd "<f3>") 'run-lisp)
 
