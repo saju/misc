@@ -83,3 +83,11 @@ Display the results in a hyperlinked *compilation* buffer."
   (compile (concat "lein kibit " buffer-file-name)))
 
 
+(require 'tls)
+(setq tls-program '("openssl s_client -connect %h:%p -no_ssl2 -ign_eof"))
+(require 'erc)
+(erc-autojoin-mode t)
+(setq erc-autojoin-channels-alist)
+
+;; avoid annoying slow autosaves when using tramp
+(setq tramp-auto-save-directory "/tmp")
