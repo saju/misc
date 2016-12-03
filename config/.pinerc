@@ -16,17 +16,17 @@
 personal-name=Saju Pillai
 
 # Sets domain part of From: and local addresses in outgoing mail.
-user-domain=
+user-domain=concur.com
 
 # List of SMTP servers for sending mail. If blank: Unix Alpine uses sendmail.
-smtp-server=127.0.0.1:1025/user=DOMAIN\local-user
+smtp-server=smtp.office365.com:587/tls/novalidate-cert/user=saju.pillai@concur.com
 
 # NNTP server for posting news. Also sets news-collections for news reading.
 nntp-server=
 
 # Path of (local or remote) INBOX, e.g. ={mail.somewhere.edu}inbox
 # Normal Unix default is the local INBOX (usually /usr/spool/mail/$USER).
-inbox-path=/Users/local-user/mail/inbox
+inbox-path={outlook.office365.com:993/ssl/novalidate-cert/user=saju.pillai@concur.com}inbox
 
 # List of folder pairs; the first indicates a folder to archive, and the
 # second indicates the folder read messages in the first should
@@ -40,12 +40,12 @@ pruned-folders=
 # Over-rides default path for sent-mail folder, e.g. =old-mail (using first
 # folder collection dir) or ={host2}sent-mail or ="" (to suppress saving).
 # Default: sent-mail (Unix) or SENTMAIL.MTX (PC) in default folder collection.
-default-fcc=""
+default-fcc={outlook.office365.com:993/ssl/novalidate-cert/user=saju.pillai@concur.com}inbox
 
 # Over-rides default path for saved-msg folder, e.g. =saved-messages (using 1st
 # folder collection dir) or ={host2}saved-mail or ="" (to suppress saving).
 # Default: saved-messages (Unix) or SAVEMAIL.MTX (PC) in default collection.
-default-saved-msg-folder=
+default-saved-msg-folder={outlook.office365.com:993/ssl/novalidate-cert/user=saju.pillai@concur.com}Drafts
 
 # Over-rides default path for postponed messages folder, e.g. =pm (which uses
 # first folder collection dir) or ={host4}pm (using home dir on host4).
@@ -59,7 +59,7 @@ read-message-folder=
 form-letter-folder=
 
 # If set, specifies where trash is moved to in Web Alpine.
-trash-folder=
+trash-folder={outlook.office365.com:993/ssl/novalidate-cert/user=saju.pillai@concur.com}Deleted Items
 
 # Contains the actual signature contents as opposed to the signature filename.
 # If defined, this overrides the signature-file. Default is undefined.
@@ -71,19 +71,42 @@ signature-file=
 # List of features; see Alpine's Setup/options menu for the current set.
 # e.g. feature-list= select-without-confirm, signature-at-bottom
 # Default condition for all of the features is no-.
-feature-list=include-text-in-reply,
+feature-list=convert-dates-to-localtime,
+	quell-dead-letter-on-cancel,
+	enable-alternate-editor-implicitly,
+	quell-user-lookup-in-passwd-file,
+	no-spell-check-before-sending,
 	include-attachments-in-reply,
+	include-text-in-reply,
+	no-signature-at-bottom,
+	no-forward-as-attachment,
+	no-quell-flowed-text,
+	no-downgrade-multipart-to-text,
+	no-enable-verbose-smtp-posting,
+	mark-fcc-seen,
+	no-strip-whitespace-before-send,
 	warn-if-blank-subject,
 	warn-if-blank-to-and-cc-and-newsgroups,
-	ldap-result-to-addrbook-add,
-	tab-visits-next-new-message-only,
-	thread-index-shows-important-color,
+	no-enable-dot-folders,
+	enable-incoming-folders-checking,
+	enable-incoming-folders,
+	incoming-checking-includes-total,
 	thread-sorts-by-arrival,
-	show-cursor,
-	quell-user-lookup-in-passwd-file,
-	combined-addrbook-display,
-	quell-dead-letter-on-cancel,
-	slash-collapses-entire-thread
+	prefer-plain-text,
+	print-offers-custom-cmd-prompt,
+	enable-dot-files,
+	enable-suspend,
+	no-show-cursor,
+	slash-collapses-entire-thread,
+	compose-cut-from-cursor,
+	enable-background-sending,
+	compose-rejects-unqualified-addrs,
+	tab-visits-next-new-message-only,
+	tab-checks-recent,
+	thread-index-shows-important-color,
+	show-selected-in-boldface,
+	no-preserve-original-fields,
+	enable-sigdashes
 
 # Alpine executes these keys upon startup (e.g. to view msg 13: i,j,1,3,CR,v)
 initial-keystroke-list=
@@ -92,8 +115,7 @@ initial-keystroke-list=
 default-composer-hdrs=
 
 # Add these customized headers (and possible default values) when composing
-customized-hdrs=Bcc: saju.pillai@domain.com,
-	From: Saju Ravindran Pillai <saju.pillai@domain.com>
+customized-hdrs=From: saju.pillai@concur.com
 
 # When viewing messages, include this list of headers
 viewer-hdrs=
@@ -115,12 +137,12 @@ saved-msg-name-rule=
 # Determines default name for Fcc...
 # Choices: default-fcc, by-recipient, last-fcc-used.
 # Default: "default-fcc" (see also "default-fcc=" variable.)
-fcc-name-rule=current-folder
+fcc-name-rule=
 
 # Sets presentation order of messages in Index. Choices:
 # Subject, From, Arrival, Date, Size, To, Cc, OrderedSubj, Score, and Thread.
 # Order may be reversed by appending /Reverse. Default: "Arrival".
-sort-key=tHread
+sort-key=Arrival
 
 # Sets presentation order of address book entries. Choices: dont-sort,
 # fullname-with-lists-last, fullname, nickname-with-lists-last, nickname
@@ -148,7 +170,7 @@ pruning-rule=
 folder-reopen-rule=
 
 # Style that MESSAGE INDEX is displayed in when threading.
-threading-display-style=mutt
+threading-display-style=
 
 # Style of THREAD INDEX or default MESSAGE INDEX when threading.
 threading-index-style=coll
@@ -185,10 +207,10 @@ unknown-character-set=
 
 # Specifies the program invoked by ^_ in the Composer,
 # or the "enable-alternate-editor-implicitly" feature.
-editor=/usr/local/bin/emacs
+editor=/Users/srp/bin/emacs
 
 # Specifies the program invoked by ^T in the Composer.
-speller=
+speller=aspell -c
 
 # Specifies the column of the screen where the composer should wrap.
 composer-wrap-column=
@@ -225,7 +247,7 @@ display-filters=
 sending-filters=
 
 # A list of alternate addresses the user is known by
-alt-addresses=
+alt-addresses=saju.pillai@concur.com
 
 # A list of keywords for use in categorizing messages
 keywords=
@@ -261,8 +283,13 @@ status-message-delay=
 # Number of times per-second to update busy cue messages
 busy-cue-rate=
 
+# UNIX ONLY (except MAC OSX): When an attachment is opened, this variable controls the number
+#of seconds to wait between checks if the user has ended viewing the attachment.
+#minimun value: 60 seconds, maximum value: 600 seconds (10 minutes). Default: 60 seconds
+mailcap-check-interval=
+
 # The approximate number of seconds between checks for new mail
-mail-check-interval=
+mail-check-interval=30
 
 # The approximate number of seconds between checks for new mail in folders
 # other than the current folder and inbox.
@@ -330,7 +357,7 @@ incoming-check-timeout=
 
 # Sets the approximate number of seconds between checks for unseen messages
 # in incoming folders. The default is 180.
-incoming-check-interval=
+incoming-check-interval=30
 
 # Sets the approximate number of seconds between checks for unseen messages
 # for other than local or IMAP folders. The default is 180.
@@ -351,12 +378,12 @@ newmail-window-width=
 
 # List of incoming msg folders besides INBOX, e.g. ={host2}inbox, {host3}inbox
 # Syntax: optnl-label {optnl-imap-host-name}folder-path
-incoming-folders=mail/inbox
+incoming-folders=
 
 # List of directories where saved-message folders may be. First one is
 # the default for Saves. Example: Main {host1}mail/[], Desktop mail\[]
 # Syntax: optnl-label {optnl-imap-hostname}optnl-directory-path[]
-folder-collections=
+folder-collections=Concur {outlook.office365.com/ssl/novalidate-cert/user=saju.pillai@concur.com}[]
 
 # List, only needed if nntp-server not set, or news is on a different host
 # than used for NNTP posting. Examples: News *[] or News *{host3/nntp}[]
@@ -374,10 +401,10 @@ address-book=
 global-address-book=
 
 # Set by Alpine; controls beginning-of-month sent-mail pruning.
-last-time-prune-questioned=114.10
+last-time-prune-questioned=116.11
 
 # Set by Alpine; controls display of "new version" message.
-last-version-used=6.00
+last-version-used=6.20
 
 # This names the path to an alternative program, and any necessary arguments,
 # to be used in posting mail messages.  Example:
@@ -462,11 +489,10 @@ new-version-threshold=
 disable-these-drivers=
 
 # List of SASL authenticators to disable.
-disable-these-authenticators=GSSAPI,
-	PLAIN
+disable-these-authenticators=
 
 # Set by Alpine; contains data for caching remote address books.
-remote-abook-metafile=
+remote-abook-metafile=.ab87261
 
 # How many extra copies of remote address book should be kept. Default: 3
 remote-abook-history=
@@ -495,7 +521,7 @@ patterns-filters2=
 patterns-scores2=
 
 # Patterns and their actions are stored here.
-patterns-indexcolors=
+patterns-indexcolors=LIT:pattern="/NICK=important mail/FLDTYPE=EMAIL/STATI=YES" action="/ISINCOL=1/INCOL=\/FG=255,255,255\/BG=174,000,000"
 
 # Patterns and their actions are stored here.
 patterns-other=
@@ -513,14 +539,20 @@ current-indexline-style=
 titlebar-color-style=
 
 # Choose: black, blue, green, cyan, red, magenta, yellow, or white.
-normal-foreground-color=000,000,000
-normal-background-color=148,148,148
+normal-foreground-color=255,255,255
+normal-background-color=000,000,000
 reverse-foreground-color=
 reverse-background-color=
-title-foreground-color=000,000,000
-title-background-color=000,174,174
+title-foreground-color=255,255,255
+title-background-color=000,000,255
 title-closed-foreground-color=
 title-closed-background-color=
+folder-foreground-color=
+folder-background-color=
+directory-foreground-color=
+directory-background-color=
+folder-list-text-foreground-color=
+folder-list-text-background-color=
 status-foreground-color=
 status-background-color=
 keylabel-foreground-color=
@@ -531,36 +563,36 @@ selectable-item-foreground-color=
 selectable-item-background-color=
 meta-message-foreground-color=
 meta-message-background-color=
-quote1-foreground-color=000,000,255
-quote1-background-color=174,174,174
-quote2-foreground-color=255,000,000
-quote2-background-color=174,174,174
-quote3-foreground-color=000,095,095
-quote3-background-color=174,174,174
-incoming-unseen-foreground-color=255,000,255
-incoming-unseen-background-color=174,174,174
-signature-foreground-color=174,000,000
-signature-background-color=174,174,174
+quote1-foreground-color=000,255,175
+quote1-background-color=000,000,000
+quote2-foreground-color=174,000,174
+quote2-background-color=000,000,000
+quote3-foreground-color=000,000,255
+quote3-background-color=000,000,000
+incoming-unseen-foreground-color=
+incoming-unseen-background-color=
+signature-foreground-color=
+signature-background-color=
 prompt-foreground-color=
 prompt-background-color=
 header-general-foreground-color=
 header-general-background-color=
-index-to-me-foreground-color=
-index-to-me-background-color=
-index-important-foreground-color=000,000,175
-index-important-background-color=174,174,174
-index-deleted-foreground-color=
-index-deleted-background-color=
-index-answered-foreground-color=255,000,000
-index-answered-background-color=174,174,174
-index-new-foreground-color=000,135,000
-index-new-background-color=174,174,174
+index-to-me-foreground-color=000,174,174
+index-to-me-background-color=000,000,000
+index-important-foreground-color=255,000,000
+index-important-background-color=000,000,000
+index-deleted-foreground-color=174,000,174
+index-deleted-background-color=000,000,000
+index-answered-foreground-color=255,255,000
+index-answered-background-color=000,000,000
+index-new-foreground-color=000,174,000
+index-new-background-color=000,000,000
 index-recent-foreground-color=
 index-recent-background-color=
 index-forward-foreground-color=
 index-forward-background-color=
-index-unseen-foreground-color=
-index-unseen-background-color=
+index-unseen-foreground-color=000,000,255
+index-unseen-background-color=255,255,255
 index-highpriority-foreground-color=
 index-highpriority-background-color=
 index-lowpriority-foreground-color=
@@ -573,6 +605,9 @@ index-from-foreground-color=
 index-from-background-color=
 index-opening-foreground-color=
 index-opening-background-color=
+
+# Colors in which tokens will be displayed in the index screen
+index-token-colors=
 
 # When viewing messages, these are the header colors
 viewer-hdr-colors=
@@ -617,7 +652,7 @@ smime-cacert-directory=
 smime-cacert-container=
 
 # LDAP servers for looking up addresses.
-ldap-servers=localhost:1389 "/base=ou=people/binddn=DOMAIN\\local-user/impl=0/rhs=1/ref=0/nosub=0/tls=0/tlsm=0/type=/srch=/time=/size=/cust=/nick=Domain/matr=/catr=/satr=/gatr="
+ldap-servers=
 
 # RSS News feed
 rss-news=
@@ -639,3 +674,65 @@ wp-state=
 
 # Web Alpine preferred width for message display in characters
 wp-columns=
+
+# #Sets presentation order of threads in thread index. Choices:
+#arrival, and thread.
+thread-sort-key=
+
+# Allows a user to specify the threading style of specific folders
+threading-display-style-rule=
+
+# Allows a user to specify the threading index style of specific folders
+threading-index-style-rule=
+
+# Allows a user to set rules when composing messages.
+compose-rules=
+
+# Allows a user to set rules when forwarding messages.
+forward-rules=
+
+# Allows a user to supersede global index format variable in designated folders.
+index-rules=
+
+# Allows a user to override keystrokes in certain screens.
+key-definition-rules=
+
+# Allows a user to change the form a specify field in the index-format is 
+# displayed.
+replace-rules=
+
+# Allows a user to change the form a specify a reply-indent-string
+# based of rules.
+reply-indent-rules=
+
+# Allows a user to replace the reply-leadin message based on different parameters.
+reply-leadin-rules=
+
+# Allows a user to replace the subject of a message in a customs based way
+reply-subject-rules=
+
+# Allows a user to specify a save folder message for specific senders or folders.
+save-rules=
+
+# Allows a user to specify a smtp server to be used when sending e-mail,
+# according to the rules specified here.
+smtp-rules=
+
+# Allows a user to specify the sort default order of a specific folder.
+sort-rules=
+
+# Allows a user to specify the position of a highlighted message when opening a 
+# folder.
+startup-rules=
+
+# Specifies a comma separated list of text and regular expresions that Pine
+# will highlight
+special-text-color=
+
+# Location relative to your HOME directory of the directory where your INBOX
+# for the maildir format is located. Default value is "Maildir". If your
+# inbox is located at "~/Maildir" you do not need to change this value.
+# A common value is also ".maildir"
+maildir-location=
+special-text-foreground-color=
+special-text-background-color=

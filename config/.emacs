@@ -1,10 +1,16 @@
+(add-to-list 'load-path "~/.emacs.d/lisp")
+
+(setq-default indent-tabs-mode nil)
 (global-set-key (kbd "<f1>") 'goto-line)
+
+(setq-default fill-column 80)
+(add-hook 'text-mode-hook 'turn-on-auto-fill)
 
 ;; elpa, melpa & marmalade walk into a bar
 (require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+                         ("melpa" . "https://melpa.org/packages/")))
 (package-initialize)
 
 ;; GUI Emacs needs to pickup same ENV as the shell
@@ -29,14 +35,7 @@
 (set-color-theme)
 (global-set-key (kbd "<f7>") 'set-color-theme)
 
-;; clojure stuff
-;; cider
 (require 'clojure-mode)
-(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
-(setq nrepl-hide-special-buffers t)
-(setq cider-prefer-local-resources t)
-(setq cider-repl-result-prefix "=> ")
-(setq cider-repl-history-file "~/.emacs.d/clojure-repl-history")
 
 ;;
 ;; replace (fn with (λ to make self feel geeky
@@ -48,20 +47,8 @@
                                                (match-end 1) "λ")
                                nil))))))
 
-
-;; dumb inferior-repl support as alternative to cider nREPL
-;; "repl" is my shell script that wraps jline over clojure.jar, so i can use
-;; a readline like repl on the terminal too
-(global-set-key (kbd "<f2>") '(lambda ()
-				(interactive)
-				(add-hook 'clojure-mode-hook '(lambda ()
-								(local-set-key (kbd "\C-x\C-e" 'lisp-eval-last-sexp))))
-				(setq inferior-lisp-program "repl")))
-					  
-(global-set-key (kbd "<f3>") 'run-lisp)
-
-
-(setq tramp-default-method "ssh")
+(setq-default indent-tabs-mode nil)
+(setq cider-repl-display-help-banner nil)
 
 ;; kibit support
 (require 'compile)
@@ -70,19 +57,7 @@
 (add-to-list 'compilation-error-regexp-alist 'kibit)
 
 
-(defun kibit ()
-  "Run kibit on the current project.
-Display the results in a hyperlinked *compilation* buffer."
-  (interactive)
-  (compile "lein kibit"))
-
-(defun kibit-current-file ()
-  "Run kibit on the current file.
-Display the results in a hyperlinked *compilation* buffer."
-  (interactive)
-  (compile (concat "lein kibit " buffer-file-name)))
-
-
+(setq tramp-default-method "ssh")
 (require 'tls)
 (setq tls-program '("openssl s_client -connect %h:%p -no_ssl2 -ign_eof"))
 (require 'erc)
@@ -91,3 +66,29 @@ Display the results in a hyperlinked *compilation* buffer."
 
 ;; avoid annoying slow autosaves when using tramp
 (setq tramp-auto-save-directory "/tmp")
+
+(setq-default indent-tabs-mode nil)
+(setq clojure-defun-style-default-indent t)
+(setq clojure-indent-style :always-align)
+(eval-after-load "clojure-mode"
+   '(progn
+      (define-clojure-indent
+        (:require 0)
+        (:import 0))))
+
+
+
+(autoload 'visual-basic-mode "visual-basic-mode" "Visual Basic mode." t)
+(setq auto-mode-alist (append '(("\\.\\(frm\\|bas\\|asp\\|cls\\)$" .
+                                 visual-basic-mode)) auto-mode-alist))
+
+
+
+;; autocomplete via TAB
+(setq company-idle-delay nil) ; dont autocomplete always
+(global-set-key (kbd "M-TAB") #'company-indent-or-complete-common) ;; triggered via TAB
+(add-hook 'cider-repl-mode-hook #'company-mode) ;; in cider-repl
+(add-hook 'cider-mode-hook #'company-mode) ;; in cider
+
+(ido-mode 1)
+(setq ido-separator "\n")
