@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <openssl/evp.h>
+#include <openssl/aes.h>
 
 /**
  * Create a 256 bit key and IV using the supplied key_data. salt can be added for taste.
@@ -86,7 +87,8 @@ int main(int argc, char **argv)
 {
   /* "opaque" encryption, decryption ctx structures that libcrypto uses to record
      status of enc/dec operations */
-  EVP_CIPHER_CTX en, de;
+  EVP_CIPHER_CTX* en = EVP_CIPHER_CTX_new();
+  EVP_CIPHER_CTX* de = EVP_CIPHER_CTX_new();
 
   /* 8 bytes to salt the key_data during key generation. This is an example of
      compiled in salt. We just read the bit pattern created by these two 4 byte 
@@ -104,7 +106,7 @@ int main(int argc, char **argv)
   key_data_len = strlen(argv[1]);
   
   /* gen key and iv. init the cipher ctx object */
-  if (aes_init(key_data, key_data_len, (unsigned char *)&salt, &en, &de)) {
+  if (aes_init(key_data, key_data_len, (unsigned char *)&salt, en, de)) {
     printf("Couldn't initialize AES cipher\n");
     return -1;
   }
@@ -121,8 +123,8 @@ int main(int argc, char **argv)
        we end up with a legal C string */
     olen = len = strlen(input[i])+1;
     
-    ciphertext = aes_encrypt(&en, (unsigned char *)input[i], &len);
-    plaintext = (char *)aes_decrypt(&de, ciphertext, &len);
+    ciphertext = aes_encrypt(en, (unsigned char *)input[i], &len);
+    plaintext = (char *)aes_decrypt(de, ciphertext, &len);
 
     if (strncmp(plaintext, input[i], olen)) 
       printf("FAIL: enc/dec failed for \"%s\"\n", input[i]);
@@ -133,8 +135,8 @@ int main(int argc, char **argv)
     free(plaintext);
   }
 
-  EVP_CIPHER_CTX_cleanup(&en);
-  EVP_CIPHER_CTX_cleanup(&de);
+  EVP_CIPHER_CTX_free(en);
+  EVP_CIPHER_CTX_free(de);
 
   return 0;
 }
